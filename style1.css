@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+  color: white;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+  }
+  
+  li a::after {
+    content: '';
+    display: block;
+    height: 6px;
+    width: 0px;
+    background-color: rgb(244, 204, 159);
+    transition: width 0.5s; /* add transition property */
+  }
+  
+  li a:hover::after {
+    width: 100%;
+  }
+main{
+  background-image: url(image2.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.container{
+  background-image: url(https://optimise2.assets-servd.host/madeby-alphabet/production/images/HippoCrate/Image_2.png?w=1300&q=80&fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1572961243&s=e1cc2514b31ff34a6c01a761d9d46bb6);
+  /* margin-top: 100px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 80vh;
+  margin: 20px;
+  /* border: 2px solid black; */
+}
+.head{
+  color: black;
+}
+.btn2{
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.content{
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 100px;
+}
+.container1{
+  width: 500px;
+  height: 80vh;
+  margin: 20px;
+
+ 
+}
+.container2 img{
+  border: 2px solid #f9e1d2;
+}
+
+.text{
+  padding-top: 142px;
+  text-align: center;
+  line-height: 30px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  background-color:#f9e1d2;
+  margin-top: 100px;
+}
+footer{
+
+  text-align: center;
+  height: 500px;
+  background-color:#ddd9d6;
+  margin-top: 100px;
+  padding-top: 142px;
+}
+.footer{
+  color: black;
+  line-height: 75px;
+}
